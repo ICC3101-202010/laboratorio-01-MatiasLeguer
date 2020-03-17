@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace Cachipun
 {
-    public class Person
+    public class Persona
     {
-        public string name;
-        public string surname;
+        private string name;
+        private string surname;
 
+        public Persona(string name, string surname)
+        {
+            this.name = name;
+            this.surname = surname;
+        }
+ 
 
         public int Lanzar()
         {

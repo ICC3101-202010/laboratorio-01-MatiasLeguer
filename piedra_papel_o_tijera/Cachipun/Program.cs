@@ -10,10 +10,10 @@ namespace Cachipun
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
+            Persona person = new Persona("Bob", "Kunga");
             int random = person.Lanzar();
             Console.WriteLine(random);
-
+           
         }
     }
 }
