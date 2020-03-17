@@ -11,7 +11,8 @@ namespace Cachipun
         static void Main(string[] args)
         {
             Person person = new Person();
-            person.Lanzar();
+            int random = person.Lanzar();
+            Console.WriteLine(random);
 
         }
     }

@@ -12,11 +12,11 @@ namespace Cachipun
         public string surname;
 
 
-        public void Lanzar()
+        public int Lanzar()
         {
             Random r = new Random();
             int random = r.Next(0, 3);
-            Console.WriteLine(random);
+            return random;
         }
 
 
