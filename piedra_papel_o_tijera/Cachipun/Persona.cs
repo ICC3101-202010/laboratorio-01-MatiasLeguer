@@ -12,7 +12,7 @@ namespace Cachipun
         public string surname;
 
 
-        public void Play()
+        public void Lanzar()
         {
             Random r = new Random();
             int random = r.Next(0, 3);

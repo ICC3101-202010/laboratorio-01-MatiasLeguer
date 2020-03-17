@@ -11,7 +11,7 @@ namespace Cachipun
         static void Main(string[] args)
         {
             Person person = new Person();
-            person.Play();
+            person.Lanzar();
 
         }
     }
